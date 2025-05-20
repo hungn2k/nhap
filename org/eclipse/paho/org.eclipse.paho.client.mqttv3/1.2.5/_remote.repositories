@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon May 19 17:38:50 ICT 2025
+org.eclipse.paho.client.mqttv3-1.2.5.jar>central=
+org.eclipse.paho.client.mqttv3-1.2.5.pom>central=

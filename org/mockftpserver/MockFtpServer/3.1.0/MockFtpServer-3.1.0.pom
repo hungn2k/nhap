@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mockftpserver</groupId>
+  <artifactId>MockFtpServer</artifactId>
+  <version>3.1.0</version>
+  <name>MockFtpServer</name>
+  <description>The MockFtpServer project provides mock/dummy FTP server implementations for testing FTP client code.</description>
+  <url>https://mockftpserver.org</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chrismair</id>
+      <name>Chris Mair</name>
+      <email>chrismair@users.sourceforge.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:CodeNarc/CodeNarc.git</connection>
+    <developerConnection>scm:git:git@github.com:dx42/MockFtpServer.git</developerConnection>
+    <url>scm:git:git@github.com:dx42/MockFtpServer.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
